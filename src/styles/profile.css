@@ -1,0 +1,141 @@
+.modal-screen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ecececa3;
+}
+.modal-hide {
+	display: none;
+}
+
+.profile-master-container {
+	width: 100%;
+	padding: 40px;
+	background-color: #f5f5f5;
+	overflow: scroll;
+}
+.profile-header {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+}
+.profile-contents {
+	margin-top: 50px;
+	display: flex;
+	column-gap: 40px;
+}
+.profile-half {
+	width: 50%;
+}
+
+.user-expertise-container {
+	margin-top: 10px;
+}
+.user-expertise {
+	padding: 6px 10px;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+
+.card {
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.card-headers {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+.card-header-text {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+}
+.header-action {
+	color: #574ae2;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	cursor: pointer;
+}
+.text-manage {
+	margin-left: 7px;
+}
+.profile-content {
+	display: flex;
+	margin-top: 20px;
+}
+.profile-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.profile-details {
+	margin-left: 30px;
+}
+.header-title {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 10%;
+	color: #97999b;
+}
+.header-content {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.address-details {
+	margin-top: 20px;
+}
+.header-content.pan-data {
+	margin-bottom: unset;
+}
+.header-desc {
+	margin-top: 20px;
+	color: #97999b;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+}
+.error-msg {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #d36480;
+}
+.action-button {
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 6px 16px;
+	border: unset;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+.action-button:hover {
+	filter: contrast(2);
+}
+.purple {
+	background-color: #574ae2;
+}
+.dark {
+	background-color: #1a1a1a;
+}
+.disabled {
+	background-color: #f5f5f5;
+}

@@ -1,0 +1,37 @@
+.master-app-container {
+	display: flex;
+	height: 100vh;
+	overflow: hidden;
+}
+.sidebar-master-container {
+	width: 100px;
+}
+.sidebar-master-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.img-sidebar {
+	width: 90%;
+}
+.logout-button-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+}
+.logout-button-container:hover .text-logout {
+	font-weight: 600;
+}
+.img-logout {
+	width: 48px;
+}
+.text-logout {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 18px;
+}
