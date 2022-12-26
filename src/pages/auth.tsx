@@ -15,6 +15,8 @@ const Auth = () => {
 		e.preventDefault()
 		setHasErrored(false)
 
+		// navigate('/dash')
+
 		// @ts-ignore
 		const email = emailRef.current.value
 		// @ts-ignore
@@ -28,12 +30,9 @@ const Auth = () => {
 				password,
 			})
 
-			console.log('response', response)
 			if (response.status === 202) return navigate('/dash')
 			else throw new Error('')
 		} catch (error) {
-			console.log('from here')
-
 			setHasErrored(true)
 		}
 	}
