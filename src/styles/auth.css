@@ -162,3 +162,21 @@
 .btn-auth-action.signup-google:hover {
 	border: 2px solid #574ae2;
 }
+
+/* :: Media Queries :: */
+
+@media screen and (max-width: 980px) {
+	.nav-links,
+	.btn-nav-action {
+		display: none;
+	}
+
+	.logo-text {
+		margin-left: 30px;
+	}
+	.auth-content-container {
+		justify-content: center;
+		padding-right: 0;
+		margin: 10px;
+	}
+}
