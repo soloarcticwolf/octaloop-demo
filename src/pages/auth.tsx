@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../styles/auth.css'
@@ -15,26 +14,26 @@ const Auth = () => {
 		e.preventDefault()
 		setHasErrored(false)
 
-		// navigate('/dash')
+		navigate('/dash')
 
 		// @ts-ignore
-		const email = emailRef.current.value
-		// @ts-ignore
-		const password = passwordRef.current.value
+		// const email = emailRef.current.value
+		// // @ts-ignore
+		// const password = passwordRef.current.value
 
-		const baseURL = 'http://localhost:3000'
+		// const baseURL = 'http://localhost:3000'
 
-		try {
-			const response = await axios.post(`${baseURL}/signin`, {
-				email,
-				password,
-			})
+		// try {
+		// 	const response = await axios.post(`${baseURL}/signin`, {
+		// 		email,
+		// 		password,
+		// 	})
 
-			if (response.status === 202) return navigate('/dash')
-			else throw new Error('')
-		} catch (error) {
-			setHasErrored(true)
-		}
+		// 	if (response.status === 202) return navigate('/dash')
+		// 	else throw new Error('')
+		// } catch (error) {
+		// 	setHasErrored(true)
+		// }
 	}
 
 	return (

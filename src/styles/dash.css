@@ -35,3 +35,26 @@
 	font-size: 12px;
 	line-height: 18px;
 }
+
+/* :: Media Queries :: */
+
+@media screen and (max-width: 900px) {
+	.profile-contents {
+		flex-direction: column;
+	}
+	.profile-half {
+		width: 100%;
+	}
+	.profile-content {
+		flex-direction: column;
+	}
+	.profile-details {
+		margin-top: 10px;
+		margin-left: unset;
+	}
+}
+@media screen and (max-width: 600px) {
+	.header-content {
+		font-size: 14px;
+	}
+}

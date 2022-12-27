@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Profile from '../components/profile'
 
@@ -11,11 +10,11 @@ const Dash = () => {
 		navigate('/')
 	}
 
-	useEffect(() => {
-		const hasCookie = document.cookie.includes('accessToken')
+	// useEffect(() => {
+	// 	const hasCookie = document.cookie.includes('accessToken')
 
-		if (!hasCookie) navigate('/')
-	})
+	// 	if (!hasCookie) navigate('/')
+	// })
 
 	return (
 		<div className='master-app-container'>
